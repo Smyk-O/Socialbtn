@@ -7,7 +7,7 @@ body {
 #buttonscollapsed {
     background: url("data:image/svg+xml,%3Csvg width='54' height='51' viewBox='0 0 54 51' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Echat1%3C/title%3E%3Cdesc%3ECreated using Figma%3C/desc%3E%3Cg id='Canvas' transform='translate%28-93 -68%29'%3E%3Cg id='chat1'%3E%3Cuse xlink:href='%23path0_fill' fill='url%28%23pattern0%29' transform='translate%2893 68%29'/%3E%3C/g%3E%3C/g%3E%3Cdefs%3E%3Cpattern id='pattern0' patternUnits='objectBoundingBox' patternContentUnits='objectBoundingBox' width='1' height='1'%3E%3Cuse xlink:href='%23image0' transform='matrix%280.0185185 0 0 0.0196078 0 0%29'/%3E%3C/pattern%3E%3Cpath id='path0_fill' d='M 0 0L 54 0L 54 51L 0 51L 0 0Z'/%3E%3Cimage id='image0' width='54' height='51' preserveAspectRatio='none' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAAzCAYAAADciPtuAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAvhJREFUeNrcWo2VmzAMNnkZIDdByQTHBqETXDpBcxvQCRomyGWCXCcgnSDcBHAThA1gA1dOxStRbWpzBux+7+mRHwz+LEuWZC/ZiOCcr+ASg2xAIpSV4vYK5Q0kD4IgZ64BCG1BMv4x1CAnkMgFQjuQK7ePC0g8B6EIpODjI8PpPQmpPZ8W9ajaEyOHNjAXdmORKvj82NsmlnF3sLNF6sDdw182FxiSEg+4MPfQgKxhUW/aHxaGDzgxNyGWgEP3h4WJW4dLyNyFCA7CIRr7ytzHdyMbE7EfXDLmBx6Erelq7GnAC1J8iRFEG2w7FFuTqbhl/mCjNRXRIK8eEatA8esljdLRdZadNSFkfuHW36XCQYhMdo2fI8+I3WLZro11F7iwk7kOzX9SQ6eRWuQWLdrMl0w5MU9L5jskKUhM0n2vcHP3OOW6dlSSClHlo7IWkjXqSL77NiXzltiG/HG+y2t+u/1qbOdh0amULTE6DRvJzWePNPZ2U0hrbC0BIPZFVl6DS+EBqQb6/yCLFd9ld6Przz0gdhySj6WuawvkxZgYLgEu21p65x9ojVyjnlg7uCZfZOtYRSPjHq2JEXl2UFvfZMRKRfCrInd2kNxKRuynabYM5F4dIxdLM2TJboZWqoIBsgs2l6k6mA0t9k+4N9aHq6pzsURrRiUB3Cer50xVVB27kHuNQyhcDuYiGCurUZIOHYbWHND+PrLdVODOTqL5nOTOwVFnwO43HsSxhM8WMvQYs4hPiuJQg3FqhWWJXDZY6LGfFJ77Fdo969rafip/je+ODGZEQpxW0dcgIcS2ExAKiX3vB7RPesNByWZ5ODKhk07cZ7taVfc4gwK9XzyCU7Ey/anz4KR2cOwxVkYqWVWblmPbhv05O9U6jegf+ZRIPV7GMN65cLJ94mapm7KQkbXRiQoT1yNoyXrtskvsUaMTP0T9o3NcL8LyXag5MDmb6Nhe0A2pSPh/R0Y3IFZoU1XWm2SB5Hgk7+DEGUGLxP4fMoBfAgwATN8nYuRGjjsAAAAASUVORK5CYII='/%3E%3C/defs%3E%3C/svg%3E") 50% no-repeat;
     background-size: 70%;
-    background-color: rgb(255, 220, 0);
+    background-color: rgb(42, 48, 95);
     border-radius: 50%;
     position: fixed;
     z-index: 1;
@@ -17,7 +17,8 @@ body {
     bottom: 25px;
 }
 
-#buttonscollapsed:hover, .buttonclose:hover, .item:hover, #tumbler:hover  {
+#buttonscollapsed:hover, #tumbler:hover,
+.buttonclose:hover, .item:hover {
     cursor: pointer;
 }
 
@@ -59,8 +60,7 @@ body {
 .buttonclose {
     background: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Eclose%3C/title%3E%3Cdesc%3ECreated using Figma%3C/desc%3E%3Cg id='Canvas' transform='translate%28-46 -56%29'%3E%3Cg id='close'%3E%3Cuse xlink:href='%23path0_fill' fill='url%28%23pattern0%29' transform='translate%2846 56%29'/%3E%3C/g%3E%3C/g%3E%3Cdefs%3E%3Cpattern id='pattern0' patternUnits='objectBoundingBox' patternContentUnits='objectBoundingBox' width='1' height='1'%3E%3Cuse xlink:href='%23image0' transform='matrix%280.01 0 0 0.01 0 0%29'/%3E%3C/pattern%3E%3Cpath id='path0_fill' d='M 0 0L 100 0L 100 100L 0 100L 0 0Z'/%3E%3Cimage id='image0' width='100' height='100' preserveAspectRatio='none' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkBAMAAACCzIhnAAAAD1BMVEX///////////////////+Rd1MVAAAABHRSTlMAEJ/PUreMHgAAAdtJREFUWMOV19ltw0AMBNC1KjCyDTCJG9ggFdDbf03xHfEYjld/Mmg+QBeHrd2P72Mjx+HHnm9zsL/0Keb8NM+EOfxOtchkTL+UiEEmYS7I3DNXhDD9ViIGqZkbsmPuSMn0R4kYpGIeyIt5IgXTXyViEMy8kAfzj0Cm70rEIIjZITdmjwCmmxIxSM4Y5MrY84yxyDyHH44EuTQ9MCbp+VEzvuVnc1c5Mg7R5u9lYDwirTEmRUoGIBUDkIKBCGYgApkCQUyBAKZEcqZEUoYgGUOQhKFIZCgSGY4EhiOBeQMpGQUf620ZKRiFg2dbRiCjxRDdlhHAaBkItmUkZZSEm20ZSRiGJAxFAsOR8MafaRz0b/zkcdAjbzA9XuSxilCmZw/MWEUI0/OHf6wiJdPRizxWkYLp+KM0VhHI9OoDO1YRwPh5cqJMGFobZeLQYkwyGRmTTcaaScdvzeTjt2LAjK8YNOMxA4MEZnCQQEyRVhBTpZWcKSNRztSRKGNI7soYlrsiQ8NdZHi4CwwPd55xPZRPT3U9hA9psT2UD2l1PYRnAbE9lGcBv/EJjxxu41MeOfzGJzzZuI1PebLxG5/wAOU2PuUBym98wnOa2/ho7jqFjY+Gu1DyxcPds+QPqKJzQ29Fmf0AAAAASUVORK5CYII='/%3E%3C/defs%3E%3C/svg%3E%0A") 50% no-repeat !important;
     background-size: 50% !important;
-    background-color: rgb(255, 220, 0) !important;
-
+    background-color: rgb(42, 48, 95) !important;
 }
 
 .item {
