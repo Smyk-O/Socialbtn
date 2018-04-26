@@ -3,24 +3,24 @@ $(document).ready(function () {
     var $itembox = $('#box');
     var $tumbler = $('#tumbler');
 
-    $('#buttonscollapsed').click(function () {
+    $('#buttonopen').click(function () {
+        $('#box', '.item').stop(true);
         $(this).toggleClass('buttonclose');
-        $itembox.toggleClass('box')
-        $itembox.stop();
-        if (!$('#tumbler').hasClass('tumbler')) {
+        $itembox.toggleClass('box');
+        if (!$tumbler.hasClass('tumbler')) {
             if (!$itembox.hasClass('box')) {
                 close();
             } else {
-                open('width', 'height', 'right', 'bottom')
+                open('width', 'height', 'right', 'bottom');
             }
         } else {
             if (!$itembox.hasClass('box')) {
                 close();
             } else {
-                open('height', 'width', 'bottom', 'right')
+                open('height', 'width', 'bottom', 'right');
             }
         }
-        $('.item').toggle(300)
+        $('.item').toggle(500)
     });
 
     $tumbler.click(function () {
