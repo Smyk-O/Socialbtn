@@ -1,6 +1,6 @@
 /* css для теста */
 body {
-    background-color: yellowgreen;
+    background: repeating-linear-gradient(#60bc96, #60bc96 250px, #067515ad 250px, #067515ad 500px);
     height: 1800px;
 }
 
